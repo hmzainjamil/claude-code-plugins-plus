@@ -1,11 +1,20 @@
 # Claude Code Plugins
 
-[![Version](https://img.shields.io/badge/version-1.2.5-brightgreen)](CHANGELOG.md)
-[![Plugins](https://img.shields.io/badge/plugins-236-blue)](https://github.com/jeremylongshore/claude-code-plugins)
-[![Agent Skills](https://img.shields.io/badge/Agent%20Skills-168%20plugins-orange?logo=sparkles)](CHANGELOG.md#123---2025-10-23)
-[![Spec Compliant](https://img.shields.io/badge/Anthropic%20Spec-v1.0%20Compliant-success?logo=checkmarx)](https://github.com/anthropics/skills/blob/main/agent_skills_spec.md)
-[![NEW](https://img.shields.io/badge/NEW-Agent%20Context%20Manager-blueviolet?logo=sparkles)](plugins/productivity/agent-context-manager/)
-[![GitHub Stars](https://img.shields.io/github/stars/jeremylongshore/claude-code-plugins?style=social)](https://github.com/jeremylongshore/claude-code-plugins)
+> **236 production-ready Claude Code plugins** — automation, DevOps, analytics, AI workflows, and financial modeling in one marketplace-installable package
+
+
+<p align="center">
+  <a href="https://github.com/hmzainjamil/claude-code-plugins-plus/stargazers"><img src="https://img.shields.io/github/stars/hmzainjamil/claude-code-plugins-plus?style=for-the-badge&labelColor=555&color=white" alt="Stars"></a>
+  <a href="https://github.com/hmzainjamil/claude-code-plugins-plus/network/members"><img src="https://img.shields.io/github/forks/hmzainjamil/claude-code-plugins-plus?style=for-the-badge&labelColor=555&color=white" alt="Forks"></a>
+  <a href="https://github.com/hmzainjamil/claude-code-plugins-plus/issues"><img src="https://img.shields.io/github/issues/hmzainjamil/claude-code-plugins-plus?style=for-the-badge&labelColor=555&color=white" alt="Issues"></a>
+  <a href="https://github.com/hmzainjamil/claude-code-plugins-plus/pulls"><img src="https://img.shields.io/github/issues-pr/hmzainjamil/claude-code-plugins-plus?style=for-the-badge&labelColor=555&color=white" alt="PRs"></a>
+  <a href="https://github.com/hmzainjamil/claude-code-plugins-plus/commits"><img src="https://img.shields.io/github/last-commit/hmzainjamil/claude-code-plugins-plus?style=for-the-badge&labelColor=555&color=white" alt="Last Commit"></a>
+</p>
+
+[![Version](https://img.shields.io/badge/version-1.2.5-brightgreen?style=for-the-badge&labelColor=555)](CHANGELOG.md)
+[![Plugins](https://img.shields.io/badge/plugins-236-blue?style=for-the-badge&labelColor=555)](https://github.com/jeremylongshore/claude-code-plugins)
+[![Agent Skills](https://img.shields.io/badge/Agent%20Skills-168%20plugins-orange?style=for-the-badge&labelColor=555)](CHANGELOG.md#123---2025-10-23)
+[![Spec Compliant](https://img.shields.io/badge/Anthropic%20Spec-v1.0%20Compliant-success?style=for-the-badge&labelColor=555)](https://github.com/anthropics/skills/blob/main/agent_skills_spec.md)
 
 **236 production-ready Claude Code plugins for automation, development, and AI workflows.**
 🎯 **NEW in v1.2.4:** **Excel Analyst Pro** - Professional financial modeling toolkit with auto-invoked Skills and Excel MCP integration!
@@ -961,3 +970,32 @@ Made with dedication by the Claude Code community
 ---
 
 **Status**: Public Beta | **Version**: 1.2.0 | **Last Updated**: October 20, 2025
+
+---
+
+## ☠️ STARTUPS / BUSINESSES
+
+236 plugins powering real business workflows:
+
+| Plugin Category | Business Use Case | Impact |
+|----------------|-------------------|--------|
+| **DevOps Automation Pack** | CI/CD gates, deploy pipelines, incident response | Cut deploy time 60% |
+| **Excel Analyst Pro** | DCF models, LBO analysis, budget variance | Investment-grade output without analysts |
+| **Agent Context Manager** | Persistent session memory, cross-project context | No context loss on complex engagements |
+| **Session Analytics** | Per-task cost tracking, ROI measurement | Justify AI spend to stakeholders |
+| **Security Pack** | SAST, dependency audit, secret scanning in CI | Shift-left security, zero extra tooling |
+| **Business Tools** | Proposal writing, contract review, client reports | Agency deliverables on autopilot |
+| **Productivity Suite** | Standups, task management, meeting summaries | 30% fewer manual updates |
+| **Financial Modeling** | Auto-invoked DCF/LBO skills, pivot table generation | Analyst-tier output from natural language |
+
+> Install: `/plugin marketplace add jeremylongshore/claude-code-plugins`
+
+---
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=hmzainjamil/claude-code-plugins-plus&type=Date)](https://star-history.com/#hmzainjamil/claude-code-plugins-plus&Date)
+
+---
+
+Built by [HMZ](https://github.com/hmzainjamil)
