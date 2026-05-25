@@ -4,17 +4,17 @@
 
 
 <p align="center">
-  <a href="https://github.com/hmzainjamil/claude-code-plugins-plus/stargazers"><img src="https://img.shields.io/github/stars/hmzainjamil/claude-code-plugins-plus?style=for-the-badge&labelColor=555&color=white" alt="Stars"></a>
-  <a href="https://github.com/hmzainjamil/claude-code-plugins-plus/network/members"><img src="https://img.shields.io/github/forks/hmzainjamil/claude-code-plugins-plus?style=for-the-badge&labelColor=555&color=white" alt="Forks"></a>
-  <a href="https://github.com/hmzainjamil/claude-code-plugins-plus/issues"><img src="https://img.shields.io/github/issues/hmzainjamil/claude-code-plugins-plus?style=for-the-badge&labelColor=555&color=white" alt="Issues"></a>
-  <a href="https://github.com/hmzainjamil/claude-code-plugins-plus/pulls"><img src="https://img.shields.io/github/issues-pr/hmzainjamil/claude-code-plugins-plus?style=for-the-badge&labelColor=555&color=white" alt="PRs"></a>
-  <a href="https://github.com/hmzainjamil/claude-code-plugins-plus/commits"><img src="https://img.shields.io/github/last-commit/hmzainjamil/claude-code-plugins-plus?style=for-the-badge&labelColor=555&color=white" alt="Last Commit"></a>
+  <a href="https://github.com/hmzainjamil/claude-code-plugins-plus/stargazers"><img src="https://img.shields.io/github/stars/hmzainjamil/claude-code-plugins-plus?style=flat&labelColor=555&color=white" alt="Stars"></a>
+  <a href="https://github.com/hmzainjamil/claude-code-plugins-plus/network/members"><img src="https://img.shields.io/github/forks/hmzainjamil/claude-code-plugins-plus?style=flat&labelColor=555&color=white" alt="Forks"></a>
+  <a href="https://github.com/hmzainjamil/claude-code-plugins-plus/issues"><img src="https://img.shields.io/github/issues/hmzainjamil/claude-code-plugins-plus?style=flat&labelColor=555&color=white" alt="Issues"></a>
+  <a href="https://github.com/hmzainjamil/claude-code-plugins-plus/pulls"><img src="https://img.shields.io/github/issues-pr/hmzainjamil/claude-code-plugins-plus?style=flat&labelColor=555&color=white" alt="PRs"></a>
+  <a href="https://github.com/hmzainjamil/claude-code-plugins-plus/commits"><img src="https://img.shields.io/github/last-commit/hmzainjamil/claude-code-plugins-plus?style=flat&labelColor=555&color=white" alt="Last Commit"></a>
 </p>
 
-[![Version](https://img.shields.io/badge/version-1.2.5-brightgreen?style=for-the-badge&labelColor=555)](CHANGELOG.md)
-[![Plugins](https://img.shields.io/badge/plugins-236-blue?style=for-the-badge&labelColor=555)](https://github.com/jeremylongshore/claude-code-plugins)
-[![Agent Skills](https://img.shields.io/badge/Agent%20Skills-168%20plugins-orange?style=for-the-badge&labelColor=555)](CHANGELOG.md#123---2025-10-23)
-[![Spec Compliant](https://img.shields.io/badge/Anthropic%20Spec-v1.0%20Compliant-success?style=for-the-badge&labelColor=555)](https://github.com/anthropics/skills/blob/main/agent_skills_spec.md)
+[![Version](https://img.shields.io/badge/version-1.2.5-brightgreen?style=flat&labelColor=555)](CHANGELOG.md)
+[![Plugins](https://img.shields.io/badge/plugins-236-blue?style=flat&labelColor=555)](https://github.com/jeremylongshore/claude-code-plugins)
+[![Agent Skills](https://img.shields.io/badge/Agent%20Skills-168%20plugins-orange?style=flat&labelColor=555)](CHANGELOG.md#123---2025-10-23)
+[![Spec Compliant](https://img.shields.io/badge/Anthropic%20Spec-v1.0%20Compliant-success?style=flat&labelColor=555)](https://github.com/anthropics/skills/blob/main/agent_skills_spec.md)
 
 **236 production-ready Claude Code plugins for automation, development, and AI workflows.**
 🎯 **NEW in v1.2.4:** **Excel Analyst Pro** - Professional financial modeling toolkit with auto-invoked Skills and Excel MCP integration!
@@ -29,6 +29,58 @@
 💖 **[Sponsor this project](docs/sponsor/)** - Get early access, premium plugins, and priority support
 
 ---
+
+
+---
+
+## CONCEPTS
+
+| Concept | Description |
+|---|---|
+| **Plugins** | Core concept — primary building block of claude code plugins plus |
+| **Claude** | Execution primitive handling claude operations |
+| **Code** | Integration layer for code connectivity |
+| **Community** | Configuration and routing for community behavior |
+| **Claude Code** | Anthropic CLI — agentic coding and task execution |
+| **MCP** | Model Context Protocol — tool exposure standard |
+| **Skill** | Self-contained Claude Code capability module |
+| **Tier-0** | Free model routing: Groq → Ollama → DeepSeek |
+| **Context Window** | Token budget per session — managed via compression |
+| **Async Agent** | Background task agent — non-blocking parallel execution |
+
+---
+
+## 🔥 Hot Commands
+
+```bash
+# Clone and explore
+gh repo clone hmzainjamil/claude-code-plugins-plus
+cd claude-code-plugins-plus
+
+# Load as Claude Code skill
+cp -r . ~/.claude/skills/claude-code-plugins-plus/
+
+# Run via MAE pipeline
+mae run "claude code plugins plus - primary workflow"
+
+# Quick invoke via Claude
+claude -p "using plugins capabilities: run main workflow"
+```
+
+## ■ tip
+> **Route sub-tasks to Tier-0 first** (Groq/Ollama) — saves Claude quota for synthesis only. Use `mae run` to auto-decompose complex tasks.
+
+---
+
+## ☠️ STARTUPS / BUSINESSES
+
+- **Digital agencies** — deploy as client delivery multiplier, 10× throughput
+- **SaaS founders** — integrate into existing Claude Code stack, zero infra overhead
+- **AI engineers** — fork and extend with custom domain logic
+- **Freelancers** — use as billable-hours accelerator for plugins + claude work
+
+---
+
 
 ## 🎯 Featured: Excel Analyst Pro
 
